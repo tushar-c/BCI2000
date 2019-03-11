@@ -1,0 +1,3 @@
+#! /bin/sh
+CMake -DUSE_SSE2:BOOL=TRUE -DBUILD_TOOLS:BOOL=TRUE -G "Xcode"
+
